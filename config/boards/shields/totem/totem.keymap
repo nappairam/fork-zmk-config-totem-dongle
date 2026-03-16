@@ -251,7 +251,7 @@
             bindings = <
                 &bootloader      &u_to_U_TAP      &u_to_U_EXTRA    &u_to_U_BASE     &none              &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG
                 &kp LGUI         &kp LALT         &kp LCTRL        &kp LSHFT        &none              &kp C_PREV       &kp C_VOL_DN     &kp C_VOL_UP     &kp C_NEXT       &ext_power EP_TOG
-    &bootloader &none            &kp RALT         &u_to_U_FUN      &u_to_U_MEDIA    &none              &u_bt_sel_0      &u_bt_sel_1      &u_bt_sel_2      &u_bt_sel_3      &u_out_tog          &rgb_ug RGB_TOG
+    &bootloader &none            &kp RALT         &u_to_U_FUN      &u_to_U_MEDIA    &none              &u_bt_sel_0      &u_bt_sel_1      &u_bt_sel_2      &u_bt_sel_3      &u_out_tog          &studio_unlock
                                  &none            &none            &none                               &kp C_STOP       &kp C_PP         &kp C_MUTE
             >;
         };
