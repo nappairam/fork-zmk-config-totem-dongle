@@ -7,13 +7,19 @@
 ---
 include:
   - board: nrf52840dongle/nrf52840/zmk
+    shield: settings_reset
+  - board: xiao_ble//zmk
+    shield: settings_reset
+
+  - board: nrf52840dongle/nrf52840/zmk
     shield: totem_dongle
     snippet: studio-rpc-usb-uart
-  - board: nrf52840dongle/nrf52840/zmk
-    shield: settings_reset
+
+  - board: xiao_ble//zmk
+    shield: totem_dongle
+    snippet: studio-rpc-usb-uart
+
   - board: xiao_ble//zmk
     shield: totem_left
   - board: xiao_ble//zmk
     shield: totem_right
-  - board: xiao_ble//zmk
-    shield: settings_reset
