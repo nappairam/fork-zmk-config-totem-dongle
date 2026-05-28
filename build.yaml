@@ -10,6 +10,8 @@ include:
     shield: settings_reset
   - board: xiao_ble//zmk
     shield: settings_reset
+  - board: nice_nano//zmk
+    shield: settings_reset
 
   - board: nrf52840dongle/nrf52840/zmk
     shield: totem_dongle
@@ -17,6 +19,10 @@ include:
 
   - board: xiao_ble//zmk
     shield: totem_dongle
+    snippet: studio-rpc-usb-uart
+
+  - board: nice_nano//zmk
+    shield: totem_display_dongle dongle_display
     snippet: studio-rpc-usb-uart
 
   - board: xiao_ble//zmk
